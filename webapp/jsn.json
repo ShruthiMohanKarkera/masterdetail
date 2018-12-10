@@ -1,0 +1,38 @@
+ {
+ 	"z1": [{
+ 		"title": "shruthi",
+ 		"number": true,
+ 		"prashanth": "700",
+ 		"street": "10th cross",
+ 		"zip": "456789",
+ 		"city": "Mangalore",
+ 		"salary": "50000",
+ 		"id": "001",
+ 		"currency": "INR"
+
+ 	}, {
+ 		"title": "arun",
+ 		"number": "2",
+ 		"prashanth": "700",
+ 		"street": "10th cross",
+ 		"zip": "456799",
+ 		"city": "Mangalore",
+ 		"salary": "35000",
+ 		"id": "002",
+ 		"currency": "EUR"
+ 	}, {
+ 		"title": "Prashanth",
+ 		"number": "3",
+ 		"prashanth": "700",
+ 		"street": "10th cross",
+ 		"zip": "456790",
+ 		"city": "bangalore",
+ 		"salary": "30000",
+ 		"id": "003",
+ 		"currency": "DOLLER"
+ 	}],
+ 	
+ 	"title":{
+ 		"title":"Shruthi"
+ 	}
+ }

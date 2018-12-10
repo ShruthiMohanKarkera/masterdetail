@@ -1,0 +1,21 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="mas.masterdetail.controller.View2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title">
+				<content>
+					<List items="{path:'jsnModel>/z1', sorter:{path:'city',	group : true}}" itemPress="onItemPress" id="l1" updateFinished="Update"  mode="SingleSelectMaster"  >
+								<items>
+									<ObjectListItem title="{jsnModel>title}" number="{jsnModel>salary}" type="Active"
+										numberState="{= ${jsnModel>salary} > 40000 ? 'Success' : 'Error'}" numberUnit="{jsnModel>currency}" intro="{jsnModel>id}">
+										<!--<attributes>-->
+										<!--	<ObjectAttribute text = "{jsnModel>id}" />-->
+										<!--</attributes>-->
+									</ObjectListItem>
+								</items>
+							</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

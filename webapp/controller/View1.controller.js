@@ -17,7 +17,8 @@
 			// omodel=this.getView().getModel("jsnModel");
 			// omodel.setProperty("/Form", ob);
 		},
-	onSearch: function (event) {
+
+		onSearch: function (event) {
 			var olist = this.getView().byId("l1"),
 				arr = [],
 				bind, filter;
